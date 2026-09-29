@@ -16,7 +16,6 @@ import {
     END,
 } from "@langchain/langgraph";
 
-
 const llm = new ChatGoogleGenerativeAI({
     model: "gemini-3.5-flash-lite",
     temperature: 0.7,
